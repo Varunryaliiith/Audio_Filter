@@ -26,5 +26,5 @@ plt.xlabel('$n$')
 plt.ylabel('$y(n)$')
 plt.grid()
 
-plt.savefig('y_by_conv.png')
+plt.savefig('../figs/y_by_conv.png')
 

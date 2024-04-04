@@ -4,7 +4,7 @@ from scipy import signal
 import numpy as np
 
 #read .wav file 
-input_signal, fs = sf.read('Dhanush-Singing.wav') 
+input_signal, fs = sf.read('Varun_Singing.wav') 
 
 #sampling frequency of Input signal
 sampl_freq = fs
@@ -47,4 +47,4 @@ plt.stem(sz_lin, h)
 plt.xlabel('n')
 plt.ylabel('h(n)')
 plt.grid()
-plt.savefig("h(n)_6.2.png")
+plt.savefig("../figs/h(n)_6.2.png")

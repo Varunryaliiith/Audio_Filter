@@ -14,7 +14,7 @@ def myfiltfilt(b, a, input_signal):
     return fft.ifft(Y).real
 
 #read .wav file 
-input_signal,fs = sf.read('Dhanush-Singing.wav') 
+input_signal,fs = sf.read('Varun_Singing.wav') 
 print(len(input_signal))
 np.savetxt("in.txt", input_signal)
 
@@ -44,4 +44,4 @@ plt.plot(x_plt[1000:10000], op1[1000:10000], 'r.',label='Output by not using bui
 plt.title("Verification of outputs of Audio Filter")
 plt.grid()
 plt.legend()
-plt.savefig("Audio_Filter_verf.png")
+plt.savefig("../figs/Audio_Filter_verf.png")

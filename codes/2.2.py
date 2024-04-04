@@ -16,4 +16,4 @@ plt.xlabel('$n$')
 plt.ylabel('$y(n)$')
 plt.grid()
 
-plt.savefig("Plot_xn_yn.png")
+plt.savefig("../figs/Plot_xn_yn.png")

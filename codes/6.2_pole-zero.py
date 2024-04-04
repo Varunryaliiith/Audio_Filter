@@ -4,7 +4,7 @@ from scipy import signal
 import soundfile as sf
 
 #read .wav file 
-input_signal, fs = sf.read('Dhanush-Singing.wav') 
+input_signal, fs = sf.read('Varun_Singing.wav') 
 
 #sampling frequency 
 sampl_freq = fs
@@ -40,4 +40,4 @@ plt.gca().spines['left'].set_linewidth(2)
 plt.tick_params(axis='both', which='major', labelsize=12)
 plt.tick_params(axis='both', which='minor', labelsize=10)
 plt.tight_layout()
-plt.savefig("Pole_Zero_Plt.png")
+plt.savefig("../figs/Pole_Zero_Plt.png")

@@ -17,4 +17,4 @@ plt.xlabel('$n$')
 plt.ylabel('$h(n)$')
 plt.grid()
 
-plt.savefig('hndef.png')
+plt.savefig('../figs/hndef.png')
